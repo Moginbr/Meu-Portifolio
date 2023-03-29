@@ -15,7 +15,6 @@ const App = () => {
       <Nav />
       <Services />
       <Work />
-    <div className='h-[4000px]'></div> */
     </div>
   );
 };

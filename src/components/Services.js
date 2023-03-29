@@ -39,7 +39,6 @@ const Services = () => {
               Meus Serviços
             </h2>
 
-            <button className='btn btn-sm'></button>
           </motion.div>
 
           <motion.div

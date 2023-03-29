@@ -23,10 +23,11 @@ const Work = () => {
               <h2 className='h2 leading-tight text-accent'>
                 Meus ùltimos <br/> Projetos
               </h2>
-
+            <a href="https://github.com/Moginbr">
               <button className='btn btn-sm'>
-                
+                Ver mais
               </button>
+            </a>
             </div>
 
             <motion.div variants={fadeIn('left', 0.2)} initial="hidden" whileInView={'show'} viewport={{once:false, amount: 0.3}} className='group relative overflow-hidden border-2 border-white/50 rounded-x1'>

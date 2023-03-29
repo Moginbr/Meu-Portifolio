@@ -1,5 +1,5 @@
 import React from 'react';
-import Image from '../assets/avatar.svg'
+import Image from '../assets/DaviFoto.png'
 
 import {FaGithub, FaInstagram, FaTelegram} from 'react-icons/fa'
 import {TypeAnimation} from 'react-type-animation'
@@ -50,7 +50,7 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}}  
             className='mb-8 max-w-lg mx-auto lg:mx-0'>
-              kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+              
             </motion.p>
             <motion.div
             variants={fadeIn('up',0.6)} 
@@ -58,10 +58,9 @@ const Banner = () => {
             whileInView={'show'} 
             viewport={{once: false, amount: 0.7}}  
             className='flex max-w-max gap-x-6 items-center mb-12 lg:mx-0'>
-              <button className='btn btn-lg'>Contact me</button>
-              <a href='#' className='text-gradient btn-link'>
-                My Portfolio</a>
+              <button className='btn btn-lg'>Fale comigo</button>
             </motion.div>
+
             <motion.div
             variants={fadeIn('up',0.7)} 
             initial="hidden" 
@@ -69,10 +68,10 @@ const Banner = () => {
             viewport={{once: false, amount: 0.7}}  
             className="flex text-[20px] gap-x-6 max-w-max mx-auto
             lg:mx-0">
-              <a href='#'>
+              <a href='https://www.instagram.com/mogin_d3/'>
                 <FaInstagram/>
               </a>
-              <a href='#'>
+              <a href='https://github.com/Moginbr'>
                 <FaGithub/>
               </a>
               <a href='#'>
